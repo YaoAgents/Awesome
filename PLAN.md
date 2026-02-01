@@ -14,24 +14,31 @@ Yao Agents ecosystem index center, serving:
 
 ```
 Awesome/
-├── README.md                    # GitHub homepage (auto-generated)
+├── README.md                    # GitHub homepage
 ├── agents.json                  # All agents index (website/CLI reads this)
 ├── categories.json              # Category definitions
 ├── CONTRIBUTING.md              # Contribution guide
+├── AGENT.md                     # Agent data schema
+├── PLAN.md                      # This file
 ├── scripts/                     # Automation scripts
-│   ├── build-readme.js          # Generate README.md list section from agents.json
+│   ├── build-readme.js          # Generate README.md list section
 │   └── validate-pr.js           # PR validation script
-└── agents/                      # Detail directories for each agent
-    ├── yaoagents/
-    │   ├── yao-craft/
-    │   │   ├── meta.json
-    │   │   ├── README.md
-    │   │   ├── README.zh-CN.md
-    │   │   └── assets/
-    │   └── ...
+├── assistants/                  # Assistants (reactive, conversational)
+│   ├── README.md                # Type introduction
+│   └── <owner>/
+│       ├── README.md            # Organization introduction
+│       └── <name>/
+│           ├── README.md
+│           ├── meta.json
+│           └── cover.jpg
+├── robots/                      # Autonomous Agents (proactive, triggered)
+│   ├── README.md
+│   └── <owner>/
+│       └── ...
+└── mcps/                        # MCP Tools (capability modules)
+    ├── README.md
     └── <owner>/
-        └── <repo>/
-            └── ...
+        └── ...
 ```
 
 ---
@@ -41,7 +48,7 @@ Awesome/
 | Page | Data Source | Features |
 |------|-------------|----------|
 | `/agents` list page | `agents.json` | Recommended display, search, category filter |
-| `/agents/<id>` detail page | `agents/<id>/README.md` + `meta.json` | Full intro, screenshots, install command |
+| `/agents/<id>` detail page | `<type>/<owner>/<name>/README.md` + `meta.json` | Full intro, screenshots, install command |
 
 ### List Page Features
 - **Recommended Section**: Agents with `featured: true`, after manual review
@@ -71,10 +78,10 @@ Update agents.json + README.md
 ```
 Author submits PR
     ↓
-Add agents/<owner>/<repo>/ directory
+Add <type>/<owner>/<name>/ directory
     ├── meta.json
     ├── README.md
-    └── assets/
+    └── cover.jpg
     ↓
 CI auto-validation
     ↓
@@ -87,11 +94,14 @@ Auto-update agents.json + README.md after merge
 
 ## TODO
 
-- [ ] Create initial `agents.json` data
-- [ ] Create `categories.json`
+- [x] Create initial `agents.json` data
+- [x] Create `categories.json`
+- [x] Create `AGENT.md` data schema
+- [x] Add meta.json and README for existing Assistants
+- [x] Organize by type: assistants/, robots/, mcps/
+- [x] Add type and organization README files
 - [ ] Create `CONTRIBUTING.md` contribution guide
 - [ ] Implement `scripts/validate-pr.js` PR validation
 - [ ] Implement `scripts/build-readme.js` auto-generation
-- [ ] Add meta.json and README for existing Agents
 - [ ] Website `/agents` list page
 - [ ] Website `/agents/<id>` detail page

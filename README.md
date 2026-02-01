@@ -12,12 +12,12 @@ yao agent add <id>
 
 | Name | Description | Install |
 |------|-------------|---------|
-| [Game Crafter](agents/yaoagents/craft) | AI Web Game Development Agent - generates complete HTML5 games with cyberpunk-style visuals | `yao agent add yaoagents/craft` |
-| [Scribe](agents/yaoagents/scribe) | AI Article Writing Agent - multi-agent system that generates high-quality articles with images | `yao agent add yaoagents/scribe` |
-| [Robot Inspiration](agents/yaoagents/robot-inspiration) | P0 Phase - analyzes context and generates actionable inspiration reports | `yao agent add yaoagents/robot-inspiration` |
-| [Robot Goals](agents/yaoagents/robot-goals) | P1 Phase - converts inputs into prioritized actionable goals | `yao agent add yaoagents/robot-goals` |
-| [Robot Tasks](agents/yaoagents/robot-tasks) | P2 Phase - decomposes goals into executable tasks | `yao agent add yaoagents/robot-tasks` |
-| [Robot Validation](agents/yaoagents/robot-validation) | P3 Phase - validates task execution results | `yao agent add yaoagents/robot-validation` |
+| [Game Crafter](assistants/yaoagents/craft) | AI Web Game Development Agent - generates complete HTML5 games with cyberpunk-style visuals | `yao agent add yaoagents/craft` |
+| [Scribe](assistants/yaoagents/scribe) | AI Article Writing Agent - multi-agent system that generates high-quality articles with images | `yao agent add yaoagents/scribe` |
+| [Robot Inspiration](assistants/yaoagents/robot-inspiration) | P0 Phase - analyzes context and generates actionable inspiration reports | `yao agent add yaoagents/robot-inspiration` |
+| [Robot Goals](assistants/yaoagents/robot-goals) | P1 Phase - converts inputs into prioritized actionable goals | `yao agent add yaoagents/robot-goals` |
+| [Robot Tasks](assistants/yaoagents/robot-tasks) | P2 Phase - decomposes goals into executable tasks | `yao agent add yaoagents/robot-tasks` |
+| [Robot Validation](assistants/yaoagents/robot-validation) | P3 Phase - validates task execution results | `yao agent add yaoagents/robot-validation` |
 
 ## Autonomous Agents (Robots)
 

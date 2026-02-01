@@ -41,7 +41,7 @@ Shared by all types:
 | `tags` | string[] | ✅ | Tags for categorization |
 | `version` | string | ✅ | Semantic version |
 | `repo` | url | ✅ | Repository URL |
-| `author` | object | ✅ | Author info |
+| `author` | object | ✅ | Author info (name, email, website, github) |
 | `license` | string | ✅ | Open source license |
 | `capabilities` | string[] | - | Capability list (for display) |
 | `cover` | path | - | Cover image |
@@ -115,7 +115,9 @@ Creates `__yao.member` record after installation, `member_type = "robot"`.
   "repo": "https://github.com/YaoAgents/yao-robot-tasks",
   "author": {
     "name": "Yao Team",
-    "repo": "YaoAgents"
+    "github": "YaoAgents",
+    "website": "https://yaoagents.com",
+    "email": "hello@yaoapps.com"
   },
   "license": "Apache-2.0",
   "install": "yao agent add yaoagents/robot-tasks",
@@ -183,7 +185,9 @@ Deploys `package.yao` + `prompts.yml` files after installation.
   "repo": "https://github.com/YaoAgents/yao-craft",
   "author": {
     "name": "Yao Team",
-    "repo": "YaoAgents"
+    "github": "YaoAgents",
+    "website": "https://yaoagents.com",
+    "email": "hello@yaoapps.com"
   },
   "license": "Apache-2.0",
   "install": "yao agent add yaoagents/craft",
@@ -253,7 +257,9 @@ Deploys `.mcp.yao` config file after installation.
   "repo": "https://github.com/YaoAgents/mcp-image-tools",
   "author": {
     "name": "Yao Team",
-    "repo": "YaoAgents"
+    "github": "YaoAgents",
+    "website": "https://yaoagents.com",
+    "email": "hello@yaoapps.com"
   },
   "license": "Apache-2.0",
   "install": "yao agent add yaoagents/mcp-image-tools",
@@ -289,7 +295,7 @@ Read by website list page and CLI.
       "description": { "en": "AI Web Game Development Agent", "zh-CN": "AI 网页游戏开发助手" },
       "type": "assistant",
       "tags": ["game", "development", "sandbox"],
-      "cover": "agents/yaoagents/craft/cover.jpg",
+      "cover": "assistants/yaoagents/craft/cover.jpg",
       "repo": "https://github.com/YaoAgents/yao-craft",
       "version": "1.0.0",
       "development": {
@@ -308,7 +314,7 @@ Read by website list page and CLI.
       "description": { "en": "AI Article Writing Agent", "zh-CN": "AI 文章写作助手" },
       "type": "assistant",
       "tags": ["writing", "content", "article"],
-      "cover": "agents/yaoagents/scribe/cover.jpg",
+      "cover": "assistants/yaoagents/scribe/cover.jpg",
       "repo": "https://github.com/YaoAgents/yao-scribe",
       "version": "1.0.0",
       "development": {

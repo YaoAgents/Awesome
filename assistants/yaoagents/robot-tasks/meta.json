@@ -27,7 +27,9 @@
   "repo": "https://github.com/YaoAgents/yao-robot-tasks",
   "author": {
     "name": "Yao Team",
-    "repo": "YaoAgents"
+    "github": "YaoAgents",
+    "website": "https://yaoagents.com",
+    "email": "hello@yaoapps.com"
   },
   "license": "Apache-2.0",
   "install": "yao agent add yaoagents/robot-tasks",
