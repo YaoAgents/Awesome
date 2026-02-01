@@ -1,0 +1,52 @@
+{
+  "id": "yaoagents/yao-robot-validation",
+  "name": {
+    "en": "Robot Validation Agent",
+    "zh-CN": "Robot 验证助手"
+  },
+  "description": {
+    "en": "P3 Phase Agent - performs semantic validation of task execution results against expected outputs",
+    "zh-CN": "P3 阶段助手 - 对任务执行结果进行语义验证"
+  },
+  "type": "assistant",
+  "tags": ["robot", "automation", "validation", "quality"],
+  "version": "1.0.0",
+  "development": {
+    "ai_planning": true,
+    "ai_development": true,
+    "ai_testing": true,
+    "ai_review": true,
+    "manual_review": false,
+    "manual_testing": false
+  },
+  "availability": {
+    "downloadable": true,
+    "installable": true,
+    "testable": true
+  },
+  "github": "https://github.com/YaoAgents/yao-robot-validation",
+  "author": {
+    "name": "Yao Team",
+    "github": "YaoAgents"
+  },
+  "license": "Apache-2.0",
+  "install": "yao agent add yaoagents/yao-robot-validation",
+  "test": "yao agent test -n yao.robot-validation -i tests/inputs.jsonl -v",
+  "capabilities": [
+    "Semantic validation",
+    "Quality scoring",
+    "Issue detection",
+    "Rule compliance check"
+  ],
+  "assistant": {
+    "modes": ["task"],
+    "robot_phase": "P3"
+  },
+  "requirements": {
+    "yao": ">=0.10.4"
+  },
+  "cover": "cover.jpg",
+  "featured": false,
+  "created_at": "2026-01-27T00:00:00Z",
+  "updated_at": "2026-01-27T00:00:00Z"
+}

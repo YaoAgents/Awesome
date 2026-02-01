@@ -1,0 +1,54 @@
+{
+  "id": "yaoagents/yao-scribe",
+  "name": {
+    "en": "Scribe",
+    "zh-CN": "Scribe"
+  },
+  "description": {
+    "en": "AI Article Writing Agent - multi-agent system that generates high-quality articles with images",
+    "zh-CN": "AI 文章写作助手 - 多智能体协作生成高质量图文文章"
+  },
+  "type": "assistant",
+  "tags": ["writing", "content", "article", "multi-agent"],
+  "version": "1.0.0",
+  "development": {
+    "ai_planning": true,
+    "ai_development": true,
+    "ai_testing": true,
+    "ai_review": true,
+    "manual_review": true,
+    "manual_testing": true
+  },
+  "availability": {
+    "downloadable": true,
+    "installable": true,
+    "testable": true
+  },
+  "github": "https://github.com/YaoAgents/yao-scribe",
+  "author": {
+    "name": "Yao Team",
+    "github": "YaoAgents"
+  },
+  "license": "Apache-2.0",
+  "install": "yao agent add yaoagents/yao-scribe",
+  "test": "yao agent test -n yao.scribe -i \"Write a short article about coffee, 3 sections\"",
+  "capabilities": [
+    "Multi-agent orchestration",
+    "Parallel section writing",
+    "AI image generation",
+    "Article publishing"
+  ],
+  "assistant": {
+    "modes": ["chat", "task"],
+    "dependencies": {
+      "sub-agents": ["yao.scribe.outline", "yao.scribe.reviewer", "yao.scribe.writer", "yao.scribe.deliver"]
+    }
+  },
+  "requirements": {
+    "yao": ">=0.10.4"
+  },
+  "cover": "cover.jpg",
+  "featured": true,
+  "created_at": "2026-01-20T00:00:00Z",
+  "updated_at": "2026-01-28T00:00:00Z"
+}

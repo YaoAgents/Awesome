@@ -1,0 +1,52 @@
+{
+  "id": "yaoagents/yao-robot-inspiration",
+  "name": {
+    "en": "Robot Inspiration Agent",
+    "zh-CN": "Robot 灵感助手"
+  },
+  "description": {
+    "en": "P0 Phase Agent - analyzes context, time markers, and resources to generate actionable inspiration reports",
+    "zh-CN": "P0 阶段助手 - 分析上下文、时间标记和资源生成可执行灵感报告"
+  },
+  "type": "assistant",
+  "tags": ["robot", "automation", "inspiration", "analysis"],
+  "version": "1.0.0",
+  "development": {
+    "ai_planning": true,
+    "ai_development": true,
+    "ai_testing": true,
+    "ai_review": true,
+    "manual_review": true,
+    "manual_testing": true
+  },
+  "availability": {
+    "downloadable": true,
+    "installable": true,
+    "testable": true
+  },
+  "github": "https://github.com/YaoAgents/yao-robot-inspiration",
+  "author": {
+    "name": "Yao Team",
+    "github": "YaoAgents"
+  },
+  "license": "Apache-2.0",
+  "install": "yao agent add yaoagents/yao-robot-inspiration",
+  "test": "yao agent test -n yao.robot-inspiration -i tests/inputs.jsonl -v",
+  "capabilities": [
+    "Time-aware analysis",
+    "Duty-constrained recommendations",
+    "Resource mapping",
+    "Bilingual support"
+  ],
+  "assistant": {
+    "modes": ["task"],
+    "robot_phase": "P0"
+  },
+  "requirements": {
+    "yao": ">=0.10.4"
+  },
+  "cover": "cover.jpg",
+  "featured": false,
+  "created_at": "2026-01-27T00:00:00Z",
+  "updated_at": "2026-01-27T00:00:00Z"
+}

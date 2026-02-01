@@ -1,0 +1,55 @@
+{
+  "id": "yaoagents/yao-craft",
+  "name": {
+    "en": "Game Crafter",
+    "zh-CN": "游戏工匠"
+  },
+  "description": {
+    "en": "AI Web Game Development Agent - generates complete HTML5 games with cyberpunk-style visuals",
+    "zh-CN": "AI 网页游戏开发助手 - 生成带赛博朋克风格的完整 HTML5 游戏"
+  },
+  "type": "assistant",
+  "tags": ["game", "development", "sandbox", "html5"],
+  "version": "1.0.0",
+  "development": {
+    "ai_planning": true,
+    "ai_development": true,
+    "ai_testing": true,
+    "ai_review": true,
+    "manual_review": true,
+    "manual_testing": true
+  },
+  "availability": {
+    "downloadable": true,
+    "installable": true,
+    "testable": true
+  },
+  "github": "https://github.com/YaoAgents/yao-craft",
+  "author": {
+    "name": "Yao Team",
+    "github": "YaoAgents"
+  },
+  "license": "Apache-2.0",
+  "install": "yao agent add yaoagents/yao-craft",
+  "test": "yao agent test -n yao.craft -i \"Create a Snake game\"",
+  "capabilities": [
+    "HTML5 game generation",
+    "Cyberpunk visual design",
+    "Sandbox mode execution",
+    "SUI page publishing"
+  ],
+  "assistant": {
+    "modes": ["chat", "task"],
+    "sandbox": {
+      "type": "claude",
+      "description": "Runs Claude CLI in isolated Docker container"
+    }
+  },
+  "requirements": {
+    "yao": ">=0.10.4"
+  },
+  "cover": "cover.jpg",
+  "featured": true,
+  "created_at": "2026-01-15T00:00:00Z",
+  "updated_at": "2026-02-01T00:00:00Z"
+}

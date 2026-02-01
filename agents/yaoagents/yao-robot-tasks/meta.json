@@ -1,0 +1,52 @@
+{
+  "id": "yaoagents/yao-robot-tasks",
+  "name": {
+    "en": "Robot Tasks Agent",
+    "zh-CN": "Robot 任务分解助手"
+  },
+  "description": {
+    "en": "P2 Phase Agent - decomposes strategic goals into executable tasks with proper executor assignments",
+    "zh-CN": "P2 阶段助手 - 将战略目标分解为可执行任务并分配执行器"
+  },
+  "type": "assistant",
+  "tags": ["robot", "automation", "tasks", "workflow"],
+  "version": "1.0.0",
+  "development": {
+    "ai_planning": true,
+    "ai_development": true,
+    "ai_testing": true,
+    "ai_review": true,
+    "manual_review": false,
+    "manual_testing": false
+  },
+  "availability": {
+    "downloadable": true,
+    "installable": true,
+    "testable": true
+  },
+  "github": "https://github.com/YaoAgents/yao-robot-tasks",
+  "author": {
+    "name": "Yao Team",
+    "github": "YaoAgents"
+  },
+  "license": "Apache-2.0",
+  "install": "yao agent add yaoagents/yao-robot-tasks",
+  "test": "yao agent test -n yao.robot-tasks -i tests/inputs.jsonl -v",
+  "capabilities": [
+    "Goal decomposition",
+    "Executor assignment",
+    "Dependency handling",
+    "MCP args generation"
+  ],
+  "assistant": {
+    "modes": ["task"],
+    "robot_phase": "P2"
+  },
+  "requirements": {
+    "yao": ">=0.10.4"
+  },
+  "cover": "cover.jpg",
+  "featured": false,
+  "created_at": "2026-01-27T00:00:00Z",
+  "updated_at": "2026-01-27T00:00:00Z"
+}

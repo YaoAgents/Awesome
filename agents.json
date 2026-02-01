@@ -1,0 +1,126 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-02-01T12:00:00Z",
+  "agents": [
+    {
+      "id": "yaoagents/yao-craft",
+      "name": { "en": "Game Crafter", "zh-CN": "游戏工匠" },
+      "description": { "en": "AI Web Game Development Agent - generates complete HTML5 games with cyberpunk-style visuals", "zh-CN": "AI 网页游戏开发助手 - 生成带赛博朋克风格的完整 HTML5 游戏" },
+      "type": "assistant",
+      "tags": ["game", "development", "sandbox", "html5"],
+      "cover": "agents/yaoagents/yao-craft/cover.jpg",
+      "github": "https://github.com/YaoAgents/yao-craft",
+      "version": "1.0.0",
+      "development": {
+        "ai_planning": true, "ai_development": true, "ai_testing": true,
+        "ai_review": true, "manual_review": true, "manual_testing": true
+      },
+      "availability": { "downloadable": true, "installable": true, "testable": true },
+      "author": { "name": "Yao Team", "github": "YaoAgents" },
+      "capabilities": ["HTML5 game generation", "Cyberpunk visual design", "Sandbox mode execution", "SUI page publishing"],
+      "featured": true,
+      "created_at": "2026-01-15T00:00:00Z",
+      "updated_at": "2026-02-01T00:00:00Z"
+    },
+    {
+      "id": "yaoagents/yao-scribe",
+      "name": { "en": "Scribe", "zh-CN": "Scribe" },
+      "description": { "en": "AI Article Writing Agent - multi-agent system that generates high-quality articles with images", "zh-CN": "AI 文章写作助手 - 多智能体协作生成高质量图文文章" },
+      "type": "assistant",
+      "tags": ["writing", "content", "article", "multi-agent"],
+      "cover": "agents/yaoagents/yao-scribe/cover.jpg",
+      "github": "https://github.com/YaoAgents/yao-scribe",
+      "version": "1.0.0",
+      "development": {
+        "ai_planning": true, "ai_development": true, "ai_testing": true,
+        "ai_review": true, "manual_review": true, "manual_testing": true
+      },
+      "availability": { "downloadable": true, "installable": true, "testable": true },
+      "author": { "name": "Yao Team", "github": "YaoAgents" },
+      "capabilities": ["Multi-agent orchestration", "Parallel section writing", "AI image generation", "Article publishing"],
+      "featured": true,
+      "created_at": "2026-01-20T00:00:00Z",
+      "updated_at": "2026-01-28T00:00:00Z"
+    },
+    {
+      "id": "yaoagents/yao-robot-inspiration",
+      "name": { "en": "Robot Inspiration Agent", "zh-CN": "Robot 灵感助手" },
+      "description": { "en": "P0 Phase Agent - analyzes context, time markers, and resources to generate actionable inspiration reports", "zh-CN": "P0 阶段助手 - 分析上下文、时间标记和资源生成可执行灵感报告" },
+      "type": "assistant",
+      "tags": ["robot", "automation", "inspiration", "analysis"],
+      "cover": "agents/yaoagents/yao-robot-inspiration/cover.jpg",
+      "github": "https://github.com/YaoAgents/yao-robot-inspiration",
+      "version": "1.0.0",
+      "development": {
+        "ai_planning": true, "ai_development": true, "ai_testing": true,
+        "ai_review": true, "manual_review": true, "manual_testing": true
+      },
+      "availability": { "downloadable": true, "installable": true, "testable": true },
+      "author": { "name": "Yao Team", "github": "YaoAgents" },
+      "capabilities": ["Time-aware analysis", "Duty-constrained recommendations", "Resource mapping", "Bilingual support"],
+      "featured": false,
+      "created_at": "2026-01-27T00:00:00Z",
+      "updated_at": "2026-01-27T00:00:00Z"
+    },
+    {
+      "id": "yaoagents/yao-robot-goals",
+      "name": { "en": "Robot Goals Agent", "zh-CN": "Robot 目标生成助手" },
+      "description": { "en": "P1 Phase Agent - converts inspiration reports or trigger inputs into prioritized, actionable goals", "zh-CN": "P1 阶段助手 - 将灵感报告或触发输入转换为优先级可执行目标" },
+      "type": "assistant",
+      "tags": ["robot", "automation", "goals", "planning"],
+      "cover": "agents/yaoagents/yao-robot-goals/cover.jpg",
+      "github": "https://github.com/YaoAgents/yao-robot-goals",
+      "version": "1.0.0",
+      "development": {
+        "ai_planning": true, "ai_development": true, "ai_testing": true,
+        "ai_review": true, "manual_review": false, "manual_testing": false
+      },
+      "availability": { "downloadable": true, "installable": true, "testable": true },
+      "author": { "name": "Yao Team", "github": "YaoAgents" },
+      "capabilities": ["Multi-trigger support", "Priority assignment", "Deliverable-driven goals", "Smart delivery extraction"],
+      "featured": false,
+      "created_at": "2026-01-27T00:00:00Z",
+      "updated_at": "2026-01-27T00:00:00Z"
+    },
+    {
+      "id": "yaoagents/yao-robot-tasks",
+      "name": { "en": "Robot Tasks Agent", "zh-CN": "Robot 任务分解助手" },
+      "description": { "en": "P2 Phase Agent - decomposes strategic goals into executable tasks with proper executor assignments", "zh-CN": "P2 阶段助手 - 将战略目标分解为可执行任务并分配执行器" },
+      "type": "assistant",
+      "tags": ["robot", "automation", "tasks", "workflow"],
+      "cover": "agents/yaoagents/yao-robot-tasks/cover.jpg",
+      "github": "https://github.com/YaoAgents/yao-robot-tasks",
+      "version": "1.0.0",
+      "development": {
+        "ai_planning": true, "ai_development": true, "ai_testing": true,
+        "ai_review": true, "manual_review": false, "manual_testing": false
+      },
+      "availability": { "downloadable": true, "installable": true, "testable": true },
+      "author": { "name": "Yao Team", "github": "YaoAgents" },
+      "capabilities": ["Goal decomposition", "Executor assignment", "Dependency handling", "MCP args generation"],
+      "featured": false,
+      "created_at": "2026-01-27T00:00:00Z",
+      "updated_at": "2026-01-27T00:00:00Z"
+    },
+    {
+      "id": "yaoagents/yao-robot-validation",
+      "name": { "en": "Robot Validation Agent", "zh-CN": "Robot 验证助手" },
+      "description": { "en": "P3 Phase Agent - performs semantic validation of task execution results against expected outputs", "zh-CN": "P3 阶段助手 - 对任务执行结果进行语义验证" },
+      "type": "assistant",
+      "tags": ["robot", "automation", "validation", "quality"],
+      "cover": "agents/yaoagents/yao-robot-validation/cover.jpg",
+      "github": "https://github.com/YaoAgents/yao-robot-validation",
+      "version": "1.0.0",
+      "development": {
+        "ai_planning": true, "ai_development": true, "ai_testing": true,
+        "ai_review": true, "manual_review": false, "manual_testing": false
+      },
+      "availability": { "downloadable": true, "installable": true, "testable": true },
+      "author": { "name": "Yao Team", "github": "YaoAgents" },
+      "capabilities": ["Semantic validation", "Quality scoring", "Issue detection", "Rule compliance check"],
+      "featured": false,
+      "created_at": "2026-01-27T00:00:00Z",
+      "updated_at": "2026-01-27T00:00:00Z"
+    }
+  ]
+}

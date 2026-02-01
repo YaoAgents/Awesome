@@ -1,0 +1,42 @@
+{
+  "types": [
+    {
+      "id": "robot",
+      "name": { "en": "Autonomous Agents", "zh-CN": "自主 Agent" },
+      "description": { "en": "Proactive AI workers with triggers", "zh-CN": "支持触发器的主动 AI 员工" },
+      "icon": "smart_toy"
+    },
+    {
+      "id": "assistant",
+      "name": { "en": "Assistants", "zh-CN": "助手" },
+      "description": { "en": "Conversational AI helpers", "zh-CN": "对话式 AI 助手" },
+      "icon": "support_agent"
+    },
+    {
+      "id": "mcp",
+      "name": { "en": "MCP Tools", "zh-CN": "MCP 工具包" },
+      "description": { "en": "Reusable capability modules", "zh-CN": "可复用的能力模块" },
+      "icon": "extension"
+    }
+  ],
+  "tags": [
+    { "id": "game", "name": { "en": "Game", "zh-CN": "游戏" } },
+    { "id": "development", "name": { "en": "Development", "zh-CN": "开发" } },
+    { "id": "writing", "name": { "en": "Writing", "zh-CN": "写作" } },
+    { "id": "automation", "name": { "en": "Automation", "zh-CN": "自动化" } },
+    { "id": "sandbox", "name": { "en": "Sandbox", "zh-CN": "沙箱" } },
+    { "id": "html5", "name": { "en": "HTML5", "zh-CN": "HTML5" } },
+    { "id": "content", "name": { "en": "Content", "zh-CN": "内容" } },
+    { "id": "article", "name": { "en": "Article", "zh-CN": "文章" } },
+    { "id": "multi-agent", "name": { "en": "Multi-Agent", "zh-CN": "多智能体" } },
+    { "id": "robot", "name": { "en": "Robot", "zh-CN": "Robot" } },
+    { "id": "tasks", "name": { "en": "Tasks", "zh-CN": "任务" } },
+    { "id": "workflow", "name": { "en": "Workflow", "zh-CN": "工作流" } },
+    { "id": "validation", "name": { "en": "Validation", "zh-CN": "验证" } },
+    { "id": "quality", "name": { "en": "Quality", "zh-CN": "质量" } },
+    { "id": "goals", "name": { "en": "Goals", "zh-CN": "目标" } },
+    { "id": "planning", "name": { "en": "Planning", "zh-CN": "规划" } },
+    { "id": "inspiration", "name": { "en": "Inspiration", "zh-CN": "灵感" } },
+    { "id": "analysis", "name": { "en": "Analysis", "zh-CN": "分析" } }
+  ]
+}
