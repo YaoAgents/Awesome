@@ -1,5 +1,5 @@
 {
-  "id": "yaoagents/yao-robot-validation",
+  "id": "yaoagents/robot-validation",
   "name": {
     "en": "Robot Validation Agent",
     "zh-CN": "Robot 验证助手"
@@ -30,7 +30,7 @@
     "github": "YaoAgents"
   },
   "license": "Apache-2.0",
-  "install": "yao agent add yaoagents/yao-robot-validation",
+  "install": "yao agent add yaoagents/robot-validation",
   "test": "yao agent test -n yao.robot-validation -i tests/inputs.jsonl -v",
   "capabilities": [
     "Semantic validation",

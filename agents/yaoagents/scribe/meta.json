@@ -1,5 +1,5 @@
 {
-  "id": "yaoagents/yao-scribe",
+  "id": "yaoagents/scribe",
   "name": {
     "en": "Scribe",
     "zh-CN": "Scribe"
@@ -30,7 +30,7 @@
     "github": "YaoAgents"
   },
   "license": "Apache-2.0",
-  "install": "yao agent add yaoagents/yao-scribe",
+  "install": "yao agent add yaoagents/scribe",
   "test": "yao agent test -n yao.scribe -i \"Write a short article about coffee, 3 sections\"",
   "capabilities": [
     "Multi-agent orchestration",

@@ -18,12 +18,12 @@ Three types of agents have different metadata structures.
 
 Follows GitHub structure: `<owner>/<repo>`
 
-- Official: `yaoagents/yao-craft`
+- Official: `yaoagents/craft`
 - Community: `someuser/my-agent`
 
 Install command:
 ```bash
-yao agent add yaoagents/yao-craft
+yao agent add yaoagents/craft
 ```
 
 ---
@@ -87,7 +87,7 @@ Creates `__yao.member` record after installation, `member_type = "robot"`.
 
 ```json
 {
-  "id": "yaoagents/yao-robot-tasks",
+  "id": "yaoagents/robot-tasks",
   "name": {
     "en": "Task Executor",
     "zh-CN": "任务执行器"
@@ -118,11 +118,11 @@ Creates `__yao.member` record after installation, `member_type = "robot"`.
     "github": "YaoAgents"
   },
   "license": "Apache-2.0",
-  "install": "yao agent add yaoagents/yao-robot-tasks",
+  "install": "yao agent add yaoagents/robot-tasks",
   "capabilities": ["Task scheduling", "Email processing", "Event handling"],
   "robot": {
     "triggers": ["schedule", "email", "event"],
-    "assistants": ["yaoagents/yao-scribe"],
+    "assistants": ["yaoagents/scribe"],
     "mcps": ["yaoagents/mcp-email"],
     "default_config": {
       "autonomous_mode": true,
@@ -155,7 +155,7 @@ Deploys `package.yao` + `prompts.yml` files after installation.
 
 ```json
 {
-  "id": "yaoagents/yao-craft",
+  "id": "yaoagents/craft",
   "name": {
     "en": "Game Crafter",
     "zh-CN": "游戏工匠"
@@ -186,7 +186,7 @@ Deploys `package.yao` + `prompts.yml` files after installation.
     "github": "YaoAgents"
   },
   "license": "Apache-2.0",
-  "install": "yao agent add yaoagents/yao-craft",
+  "install": "yao agent add yaoagents/craft",
   "test": "yao agent test -n yao.craft -i \"Create a Snake game\"",
   "capabilities": ["HTML5 game generation", "Interactive development", "SUI integration"],
   "assistant": {
@@ -284,12 +284,12 @@ Read by website list page and CLI.
   "updated_at": "2026-02-01T12:00:00Z",
   "agents": [
     {
-      "id": "yaoagents/yao-craft",
+      "id": "yaoagents/craft",
       "name": { "en": "Game Crafter", "zh-CN": "游戏工匠" },
       "description": { "en": "AI Web Game Development Agent", "zh-CN": "AI 网页游戏开发助手" },
       "type": "assistant",
       "tags": ["game", "development", "sandbox"],
-      "cover": "agents/yaoagents/yao-craft/cover.jpg",
+      "cover": "agents/yaoagents/craft/cover.jpg",
       "github": "https://github.com/YaoAgents/yao-craft",
       "version": "1.0.0",
       "development": {
@@ -303,12 +303,12 @@ Read by website list page and CLI.
       "updated_at": "2026-02-01T00:00:00Z"
     },
     {
-      "id": "yaoagents/yao-scribe",
+      "id": "yaoagents/scribe",
       "name": { "en": "Scribe", "zh-CN": "Scribe" },
       "description": { "en": "AI Article Writing Agent", "zh-CN": "AI 文章写作助手" },
       "type": "assistant",
       "tags": ["writing", "content", "article"],
-      "cover": "agents/yaoagents/yao-scribe/cover.jpg",
+      "cover": "agents/yaoagents/scribe/cover.jpg",
       "github": "https://github.com/YaoAgents/yao-scribe",
       "version": "1.0.0",
       "development": {

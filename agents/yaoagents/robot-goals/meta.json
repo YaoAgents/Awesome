@@ -1,5 +1,5 @@
 {
-  "id": "yaoagents/yao-robot-goals",
+  "id": "yaoagents/robot-goals",
   "name": {
     "en": "Robot Goals Agent",
     "zh-CN": "Robot 目标生成助手"
@@ -30,7 +30,7 @@
     "github": "YaoAgents"
   },
   "license": "Apache-2.0",
-  "install": "yao agent add yaoagents/yao-robot-goals",
+  "install": "yao agent add yaoagents/robot-goals",
   "test": "yao agent test -n yao.robot-goals -i tests/inputs.jsonl -v",
   "capabilities": [
     "Multi-trigger support",

@@ -1,5 +1,5 @@
 {
-  "id": "yaoagents/yao-craft",
+  "id": "yaoagents/craft",
   "name": {
     "en": "Game Crafter",
     "zh-CN": "游戏工匠"
@@ -30,7 +30,7 @@
     "github": "YaoAgents"
   },
   "license": "Apache-2.0",
-  "install": "yao agent add yaoagents/yao-craft",
+  "install": "yao agent add yaoagents/craft",
   "test": "yao agent test -n yao.craft -i \"Create a Snake game\"",
   "capabilities": [
     "HTML5 game generation",

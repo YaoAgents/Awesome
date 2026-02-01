@@ -1,5 +1,5 @@
 {
-  "id": "yaoagents/yao-robot-tasks",
+  "id": "yaoagents/robot-tasks",
   "name": {
     "en": "Robot Tasks Agent",
     "zh-CN": "Robot 任务分解助手"
@@ -30,7 +30,7 @@
     "github": "YaoAgents"
   },
   "license": "Apache-2.0",
-  "install": "yao agent add yaoagents/yao-robot-tasks",
+  "install": "yao agent add yaoagents/robot-tasks",
   "test": "yao agent test -n yao.robot-tasks -i tests/inputs.jsonl -v",
   "capabilities": [
     "Goal decomposition",
