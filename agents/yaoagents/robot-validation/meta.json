@@ -24,10 +24,10 @@
     "installable": true,
     "testable": true
   },
-  "github": "https://github.com/YaoAgents/yao-robot-validation",
+  "repo": "https://github.com/YaoAgents/yao-robot-validation",
   "author": {
     "name": "Yao Team",
-    "github": "YaoAgents"
+    "repo": "YaoAgents"
   },
   "license": "Apache-2.0",
   "install": "yao agent add yaoagents/robot-validation",

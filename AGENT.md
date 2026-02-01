@@ -40,7 +40,7 @@ Shared by all types:
 | `type` | enum | ✅ | `robot` / `assistant` / `mcp` |
 | `tags` | string[] | ✅ | Tags for categorization |
 | `version` | string | ✅ | Semantic version |
-| `github` | url | ✅ | GitHub repository URL |
+| `repo` | url | ✅ | Repository URL |
 | `author` | object | ✅ | Author info |
 | `license` | string | ✅ | Open source license |
 | `capabilities` | string[] | - | Capability list (for display) |
@@ -112,10 +112,10 @@ Creates `__yao.member` record after installation, `member_type = "robot"`.
     "installable": true,
     "testable": true
   },
-  "github": "https://github.com/YaoAgents/yao-robot-tasks",
+  "repo": "https://github.com/YaoAgents/yao-robot-tasks",
   "author": {
     "name": "Yao Team",
-    "github": "YaoAgents"
+    "repo": "YaoAgents"
   },
   "license": "Apache-2.0",
   "install": "yao agent add yaoagents/robot-tasks",
@@ -180,10 +180,10 @@ Deploys `package.yao` + `prompts.yml` files after installation.
     "installable": true,
     "testable": true
   },
-  "github": "https://github.com/YaoAgents/yao-craft",
+  "repo": "https://github.com/YaoAgents/yao-craft",
   "author": {
     "name": "Yao Team",
-    "github": "YaoAgents"
+    "repo": "YaoAgents"
   },
   "license": "Apache-2.0",
   "install": "yao agent add yaoagents/craft",
@@ -250,10 +250,10 @@ Deploys `.mcp.yao` config file after installation.
     "installable": true,
     "testable": true
   },
-  "github": "https://github.com/YaoAgents/mcp-image-tools",
+  "repo": "https://github.com/YaoAgents/mcp-image-tools",
   "author": {
     "name": "Yao Team",
-    "github": "YaoAgents"
+    "repo": "YaoAgents"
   },
   "license": "Apache-2.0",
   "install": "yao agent add yaoagents/mcp-image-tools",
@@ -290,14 +290,14 @@ Read by website list page and CLI.
       "type": "assistant",
       "tags": ["game", "development", "sandbox"],
       "cover": "agents/yaoagents/craft/cover.jpg",
-      "github": "https://github.com/YaoAgents/yao-craft",
+      "repo": "https://github.com/YaoAgents/yao-craft",
       "version": "1.0.0",
       "development": {
         "ai_planning": true, "ai_development": true, "ai_testing": true,
         "ai_review": true, "manual_review": true, "manual_testing": true
       },
       "availability": { "downloadable": true, "installable": true, "testable": true },
-      "author": { "name": "Yao Team", "github": "YaoAgents" },
+      "author": { "name": "Yao Team", "repo": "YaoAgents" },
       "featured": true,
       "created_at": "2026-01-15T00:00:00Z",
       "updated_at": "2026-02-01T00:00:00Z"
@@ -309,14 +309,14 @@ Read by website list page and CLI.
       "type": "assistant",
       "tags": ["writing", "content", "article"],
       "cover": "agents/yaoagents/scribe/cover.jpg",
-      "github": "https://github.com/YaoAgents/yao-scribe",
+      "repo": "https://github.com/YaoAgents/yao-scribe",
       "version": "1.0.0",
       "development": {
         "ai_planning": true, "ai_development": true, "ai_testing": true,
         "ai_review": true, "manual_review": true, "manual_testing": true
       },
       "availability": { "downloadable": true, "installable": true, "testable": true },
-      "author": { "name": "Yao Team", "github": "YaoAgents" },
+      "author": { "name": "Yao Team", "repo": "YaoAgents" },
       "featured": true,
       "created_at": "2026-01-20T00:00:00Z",
       "updated_at": "2026-01-28T00:00:00Z"
