@@ -1,0 +1,58 @@
+{
+  "id": "yaoagents/mark",
+  "name": {
+    "en": "Mark",
+    "zh-CN": "书签"
+  },
+  "description": {
+    "en": "AI Visual Bookmark Agent - transforms URLs and text into beautiful 1920×1080 Canvas bookmark cards",
+    "zh-CN": "AI 视觉书签助手 - 将网页和文本转化为精美的 1920×1080 Canvas 书签卡片"
+  },
+  "type": "assistant",
+  "tags": ["bookmark", "visualization", "sandbox", "canvas", "chrome"],
+  "version": "1.0.0",
+  "development": {
+    "ai_planning": true,
+    "ai_development": true,
+    "ai_testing": true,
+    "ai_review": true,
+    "manual_review": true,
+    "manual_testing": true
+  },
+  "availability": {
+    "downloadable": true,
+    "installable": true,
+    "testable": true
+  },
+  "repo": "https://github.com/YaoAgents/yao-mark",
+  "author": {
+    "name": "Yao Team",
+    "github": "YaoAgents",
+    "website": "https://yaoagents.com",
+    "email": "hello@yaoapps.com"
+  },
+  "license": "Apache-2.0",
+  "install": "yao agent add yaoagents/mark",
+  "test": "yao agent test -n yao.mark -i \"https://yaoagents.com/\"",
+  "capabilities": [
+    "URL content extraction via CDP",
+    "Canvas 2D visualization",
+    "Visual verification with vision LLM",
+    "Theme-based design system",
+    "Sandbox mode with Chrome browser"
+  ],
+  "assistant": {
+    "modes": ["chat", "task"],
+    "sandbox": {
+      "type": "claude",
+      "description": "Runs Claude CLI in Docker container with Chrome and Xvfb"
+    }
+  },
+  "requirements": {
+    "yao": ">=0.10.4"
+  },
+  "cover": "cover.jpg",
+  "featured": true,
+  "created_at": "2026-02-01T00:00:00Z",
+  "updated_at": "2026-02-08T00:00:00Z"
+}

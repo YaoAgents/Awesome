@@ -13,6 +13,7 @@ yao agent add <id>
 | Name | Description | Install |
 |------|-------------|---------|
 | [Game Crafter](assistants/yaoagents/craft) | AI Web Game Development Agent - generates complete HTML5 games with cyberpunk-style visuals | `yao agent add yaoagents/craft` |
+| [Mark](assistants/yaoagents/mark) | AI Visual Bookmark Agent - transforms URLs and text into beautiful 1920×1080 Canvas bookmark cards | `yao agent add yaoagents/mark` |
 | [Scribe](assistants/yaoagents/scribe) | AI Article Writing Agent - multi-agent system that generates high-quality articles with images | `yao agent add yaoagents/scribe` |
 | [Robot Inspiration](assistants/yaoagents/robot-inspiration) | P0 Phase - analyzes context and generates actionable inspiration reports | `yao agent add yaoagents/robot-inspiration` |
 | [Robot Goals](assistants/yaoagents/robot-goals) | P1 Phase - converts inputs into prioritized actionable goals | `yao agent add yaoagents/robot-goals` |
